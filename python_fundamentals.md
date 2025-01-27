@@ -104,7 +104,7 @@ with open("example.txt", "r") as file:
     content = file.read()
     print(content)  # Output: Hello, world!
 ```
-# 4. Error Handling
+## 4. Error Handling
 
 ```
 Try-Except Block
