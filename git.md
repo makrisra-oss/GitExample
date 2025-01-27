@@ -7,6 +7,8 @@
 - git checkout
 - git merge
 
+![fc6eaa033ae6479fa63856c10b5ebb57.png](../../Desktop/fc6eaa033ae6479fa63856c10b5ebb57.png)
+
 # Git Fundamentals and Collaborative Git  
 
 ## 1. Git Basics  

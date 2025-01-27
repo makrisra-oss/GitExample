@@ -34,7 +34,12 @@ colours = {"red", "blue", "green"}
 Dictionary: Key-value pairs.
 person = {"name": "Alice", "age": 30}
 Control Flow
-# If-else statement
+
+```
+
+### If-else statement
+
+```
 if x > 5:
     print("x is greater than 5")
 else:
@@ -43,27 +48,36 @@ else:
 # For loop
 for fruit in fruits:
     print(fruit)
+```
+### While loop
 
-# While loop
+```
 while x > 0:
     print(x)
     x -= 1
-Functions
+    
+ ```
+### Functions
+```
 def greet(name):
-    return f"Hello, {name}!"
+return f"Hello, {name}!"
 
 print(greet("Alice"))  # Output: Hello, Alice!
-3. Object-Oriented Programming (OOP)
+```
+## 3. Object-Oriented Programming (OOP)
 
-Classes and Objects
+### Classes and Objects
+```
 class Animal:
     def __init__(self, name):
         self.name = name
 
     def speak(self):
         return f"{self.name} makes a sound"
+```
 
-# Create an object
+### Create an object
+```
 dog = Animal("Dog")
 print(dog.speak())  # Output: Dog makes a sound
 Inheritance
@@ -74,18 +88,25 @@ class Dog(Animal):
 my_dog = Dog("Buddy")
 print(my_dog.speak())  # Output: Buddy barks
 4. File Handling
+```
+### Reading and Writing Files
+### Writing to a file
 
-Reading and Writing Files
-# Writing to a file
+```
 with open("example.txt", "w") as file:
     file.write("Hello, world!")
 
-# Reading from a file
+```
+### Reading from a file
+
+```
 with open("example.txt", "r") as file:
     content = file.read()
     print(content)  # Output: Hello, world!
-5. Error Handling
+```
+# 4. Error Handling
 
+```
 Try-Except Block
 try:
     result = 10 / 0
@@ -93,3 +114,4 @@ except ZeroDivisionError:
     print("Cannot divide by zero")
 finally:
     print("This block always executes")
+```
